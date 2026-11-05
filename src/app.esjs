@@ -7,7 +7,7 @@ asincrono funcion inicio() {
 
   var secreto = esperar Terminal.leer()
 
-  var dni = "" // Ingresa tu DNI aquí 👈
+  var dni = "46464593"
 
   si (esperar validarSecreto(dni, secreto)) {
     esperar mostrarCotizacion()
